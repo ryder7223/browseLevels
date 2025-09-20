@@ -1,0 +1,13 @@
+markupsafe
+itsdangerous
+colorama
+blinker
+werkzeug
+jinja2
+click
+flask
+urllib3
+idna
+charset_normalizer
+certifi
+requests
