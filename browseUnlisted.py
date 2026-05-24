@@ -100,7 +100,7 @@ def decode_and_inflate(file_name):
         encoded = f.read()
     decoded = base64.urlsafe_b64decode(encoded)
     inflated = zlib.decompress(decoded)
-    return inflated.decode("utf-8")
+    return inflated.decode("latin-1")
 
 def parse_music_library(content):
     version, artists_str, songs_str, tags_str = content.split("|", 3)
